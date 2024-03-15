@@ -8,3 +8,4 @@ coverage/
 .idea
 *.log
 *.js.map
+*.tgz
