@@ -17,7 +17,7 @@ else
 fi
 
 NEWVER=$(sh/package_ver.sh)
-sed -i "s/Version:.*/Version: $NEWVER/" dist@/pkg/deb/idp_engine_frontend@_deb_x64/DEBIAN/control
+#sed -i "s/Version:.*/Version: $NEWVER/" dist@/pkg/deb/idp_engine_frontend@_deb_x64/DEBIAN/control
 
 # push to git
 git commit --all -m "$NEWVER"
